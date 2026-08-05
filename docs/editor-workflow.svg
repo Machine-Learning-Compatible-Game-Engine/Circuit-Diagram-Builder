@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
+  <title id="title">Circuit Diagram Builder workflow</title>
+  <desc id="desc">Users choose a component from a menu, rotate and place it, connect component terminals with routed lines, and arrange a circuit diagram. The project visualizes circuits but does not simulate electricity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f1e6"/><stop offset="1" stop-color="#e5ede6"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#23372f" flood-opacity=".12"/></filter>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#426455"/></marker>
+  </defs>
+  <rect width="1200" height="580" rx="30" fill="url(#bg)"/>
+  <text x="60" y="70" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#203d33">Circuit Diagram Builder</text>
+  <text x="60" y="108" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#52695f">A WinBGIm-based schematic editor for placing, rotating and connecting electronic symbols</text>
+  <g filter="url(#s)">
+    <rect x="55" y="180" width="205" height="205" rx="22" fill="#fffdf8" stroke="#cad6cc" stroke-width="2"/>
+    <rect x="350" y="180" width="205" height="205" rx="22" fill="#fffdf8" stroke="#cad6cc" stroke-width="2"/>
+    <rect x="645" y="180" width="205" height="205" rx="22" fill="#fffdf8" stroke="#cad6cc" stroke-width="2"/>
+    <rect x="940" y="180" width="205" height="205" rx="22" fill="#fffdf8" stroke="#cad6cc" stroke-width="2"/>
+  </g>
+  <text x="157" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#294b3f">Choose</text>
+  <text x="157" y="275" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">Battery, resistor,</text>
+  <text x="157" y="303" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">capacitor, diode,</text>
+  <text x="157" y="331" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">transistor and more</text>
+  <text x="452" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#294b3f">Orient</text>
+  <text x="452" y="275" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">Right-click rotates</text>
+  <text x="452" y="303" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">the selected symbol</text>
+  <text x="452" y="331" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">through four states</text>
+  <text x="747" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#294b3f">Place</text>
+  <text x="747" y="275" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">Left-click positions</text>
+  <text x="747" y="303" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">the symbol on the</text>
+  <text x="747" y="331" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">full-screen canvas</text>
+  <text x="1042" y="230" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#294b3f">Connect</text>
+  <text x="1042" y="275" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">Select two terminals</text>
+  <text x="1042" y="303" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">to draw an orthogonal</text>
+  <text x="1042" y="331" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">wire between them</text>
+  <line x1="260" y1="282" x2="340" y2="282" stroke="#426455" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="555" y1="282" x2="635" y2="282" stroke="#426455" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="850" y1="282" x2="930" y2="282" stroke="#426455" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="260" y="455" width="680" height="65" rx="20" fill="#d9e6dc"/>
+  <text x="600" y="482" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#294b3f">Visual editor only</text>
+  <text x="600" y="507" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#536b62">No voltage, current, logic or electrical-behaviour simulation is implemented</text>
+</svg>
